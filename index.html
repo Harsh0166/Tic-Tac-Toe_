@@ -17,7 +17,7 @@
     table{
         color: white;
         margin-top: 10rem;
-        background-color: red;
+        background-color: orange;
         
     }
     td{
@@ -81,10 +81,10 @@
                 
             } else {
                 if(currentPlayer=='X'){
-                    document.getElementById("table").style.backgroundColor="green";
+                    document.getElementById("table").style.backgroundColor="orange";
                 }
                 else{
-                    document.getElementById("table").style.backgroundColor="red";
+                    document.getElementById("table").style.backgroundColor="yellow";
                 }
                 currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
             }
@@ -117,7 +117,7 @@
         currentPlayer = 'X';
         moves = 0;
         gameOver = false;
-        document.getElementById("table").style.backgroundColor="red"
+        document.getElementById("table").style.backgroundColor="orange"
     }
 </script>
 </html>
